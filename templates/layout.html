@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		{% block head %}
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% block title %}{% endblock %} | Kamal M Ali</title>
+		{% endblock %}
+	</head>
+	<body>
+		<div id="content">
+		<nav>
+			<p>Kamal Ali</p>
+			<ul>
+        <li><a href="/">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+		{% block content %}{% endblock %}
+		<div class="profiles">
+			<div>
+				<a href="https://github.com/kmyali">
+					<i class="fab fa-2x fa-github"></i>
+				</a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
