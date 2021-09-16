@@ -1,10 +1,7 @@
-{% extends "layout.html" %}
-{% block title %}About{% endblock %}
-{% block content %}
 <div id="about">
 	<h1>Hello! My name is Kamal.</h1>
 	<div class="image-container">
-		<img src="{{ url_for('static', filename='my photo.jfif') }}" />
+		<img src="/static/my photo.jfif" />
 	</div>
 	<div class="about-me">
 		<h2>About me</h2>
@@ -24,4 +21,3 @@
 		</ul>
 	</div>
 </div>
-{% endblock %}
