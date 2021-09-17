@@ -60,3 +60,17 @@ form label {
     display: block;
     margin-bottom : 1em;
  }
+
+ .projects-hackathons {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .project-item {
+    border: 1px #ccc solid;
+    padding: 10px;
+ }
+
+ .project-title {
+   text-decoration: underline;
+ }
