@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html {
+    margin: 0px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
-    margin: 8px 0px 8px 0px;
+    margin: 0px 0px 8px 0px;
     /*MD Primer Bold
     Roboto*/
 }
@@ -16,7 +20,7 @@ a {
     text-decoration: none;
 }
 nav a { 
-    color: blue;
+    color: white;
 }
 
 .center {
@@ -26,7 +30,7 @@ nav a {
 
 .navbar {
     display: flex;
-    text-align: right;
+    justify-content: flex-end;
     padding: 0;
     background-color: #431999;
 }
@@ -44,6 +48,7 @@ nav a {
 
  .image-container, .about-me {
     padding: 10px;
+    flex: 1;
  }
 
 .intro {
