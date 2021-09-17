@@ -11,6 +11,9 @@ ul{
 a {
     text-decoration: none;
 }
+a { 
+    color: blue;
+}
 
 .center {
     text-align: center;
@@ -43,3 +46,17 @@ nav ul li {
     margin-right: 0.5em;
     margin-left: 0.5em;
 }
+
+form {
+    position : relative;
+    width  : 740px;
+    height : 498px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-bottom : 1em;
+ }
