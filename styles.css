@@ -64,7 +64,6 @@ form label {
  .projects-hackathons {
     display: flex;
     flex-direction: column;
-    background-color: #8db600;
  }
 
  .project-item {
@@ -72,8 +71,24 @@ form label {
     padding: 10px;
  }
 
+ .project-1{
+    background-color: #8db600;
+ }
+
+ .project-2{
+    background-color: #289cd1;
+ }
+
+ .project-3{
+    background-color: #610d61;
+ }
+
  .project-title {
-   text-decoration: underline;
+   /*text-decoration: underline;*/
+   color: white;
+   font-size: 150%;
+   text-align: left;
+   margin-left: 2em;
  }
 
  .image-container {
