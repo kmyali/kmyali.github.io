@@ -2,7 +2,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
-    /*MD Primer Bold*/
+    margin: 8px 0px 8px 0px;
+    /*MD Primer Bold
+    Roboto*/
 }
 .image-container {
     display: flex;
@@ -94,7 +96,7 @@ form label {
    color: white;
    font-size: 150%;
    text-align: left;
-   margin-left: 2em;
+   margin-left: 1em;
  }
 
  .profile-photo {
