@@ -12,7 +12,7 @@ ul{
 a {
     text-decoration: none;
 }
-a { 
+nav a { 
     color: blue;
 }
 
@@ -124,4 +124,12 @@ form label {
      box-shadow: 0;
      border-radius: 4px;
      cursor: pointer;
+ }
+
+ i {
+     font-size: 48px;
+     text-decoration: none;
+ }
+ .github {
+    color: black;
  }
