@@ -2,6 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
+    /*MD Primer Bold*/
 }
 
 ul{
@@ -92,5 +93,35 @@ form label {
  }
 
  .profile-photo {
-     width: 100%
+    width: 100%
+ }
+
+
+
+ .form-item {
+     display: flex;
+     flex-direction: column ;
+     text-align: center;
+     align-items: center;
+ }
+
+ input {
+    width: 20em;
+    height: 2em;
+    border-radius: 4px;
+ }
+
+ textarea {
+    width: 20em;
+    height: 10em;
+    border-radius: 4px;
+ }
+
+ button {
+     width: 20em;
+     height: 2em;
+     background-color: #8db600;
+     box-shadow: 0;
+     border-radius: 4px;
+     cursor: pointer;
  }
