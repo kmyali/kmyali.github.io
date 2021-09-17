@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.navbar {
+    text-align: right;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
