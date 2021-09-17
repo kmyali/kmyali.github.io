@@ -25,8 +25,14 @@ nav a {
 
 
 .navbar {
+    display: flex;
     text-align: right;
     padding: 0;
+    background-color: #431999;
+}
+.navbar li:hover {
+    cursor: pointer;
+    background-color: #7b50bf;
 }
 
 .photo-and-intro {
