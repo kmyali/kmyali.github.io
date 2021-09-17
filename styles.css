@@ -25,7 +25,7 @@ a {
     padding: 0;
 }
 
-.typewriter {
+.intro {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -64,6 +64,7 @@ form label {
  .projects-hackathons {
     display: flex;
     flex-direction: column;
+    background-color: #8db600;
  }
 
  .project-item {
@@ -73,4 +74,8 @@ form label {
 
  .project-title {
    text-decoration: underline;
+ }
+
+ .image-container {
+     width: 100%
  }
