@@ -6,10 +6,6 @@ body {
     /*MD Primer Bold
     Roboto*/
 }
-.image-container {
-    display: flex;
-
-}
 
 ul{
     list-style-type: none;
@@ -32,6 +28,17 @@ nav a {
     text-align: right;
     padding: 0;
 }
+
+.photo-and-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .image-container, .about-me {
+    border: 1px #ccc solid;
+    padding: 10px;
+ }
 
 .intro {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
