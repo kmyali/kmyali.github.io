@@ -13,9 +13,9 @@
 	<body>
 		<nav>
 			<ul class="navbar no-bullets">
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#extracurriculars">Extracurriculars</a></li>
+				<li><a href="#about" class ="white-link">About</a></li>
+				<li><a href="#projects" class ="white-link">Projects</a></li>
+				<li><a href="#extracurriculars" class ="white-link">Extracurriculars</a></li>
 			</ul>	
 		</nav>
 
@@ -30,9 +30,9 @@
 					<ul class ="bullet-points">
 						<li class="intro">Hello 👋! My name is Kamal Ali</li>
 						<li>I am a 4th year Computer Engineering student at Memorial Univeristy of Newfoundland class of 2023.</li>
-						<li>I am also the founder and lead organizer for <a href= "https://hackfrostnl.ca/">Hack Frost NL</a>, 
+						<li>I am also the founder and lead organizer for <a href= "https://hackfrostnl.ca/" class="yellow-link">Hack Frost NL</a>, 
 						a student initiative that aims to bridge the gap between the classroom and the workplace by organizing hands-on workshops and an annual hackathon for all students.</li>
-						<li><a href="/static/resumes/Resume.pdf" target="_blank">See my resume</a></li>
+						<li><a href="/static/resumes/Resume.pdf" target="_blank" class="yellow-link">See my resume</a></li>
 					</ul>
 					</div>
 			</div>
@@ -46,41 +46,43 @@
 					<div class = "project-item item-1">
 						<li>
 							<div class = "item-title">U-Calendar</div>
+							<div class = "flex-column">
+								<a href = "https://github.com/kmyali/U-Calendar">
+									<img src="/static/img/U-Calendar in action.png" />
+								</a>
+							</div>
 							<ul class="bullet-points">
 								<li>U-Calendar is a desktop calendar application specifically designed to help university students manage various deadlines and track their grades. The application was developed as a group project during the Software Design course (ECE 5010) in Winter 2021. </li>
 								<li>The application includes weekly/monthly views, adding/changing classes, and a grade calculator.</li>
 								<li>Technologies used include Java, JavaFX, SQLite, CSS, Maven, UML, Git/GitHub.</li>
 								<li id="Credits">Credits: this was a group project with my classmates Mohamed Shahwan and Ayman Abu-Awad. Link to the <a href = "https://github.com/kmyali/U-Calendar">GitHub repository.</a></li>
 							</ul>
-							<div>
-								<a href = "https://github.com/kmyali/U-Calendar">
-									<img src="/static/img/U-Calendar in action.png" width = "80%"/>
-								</a>
-							</div>
+							
 						</li>
 					</div>
 
 					<div class = "project-item item-2">
 						<li>
 							<div class = "item-title"> TEK Basketball: a project at MakeUofT2020</div>
+							<div class = "flex-column">
+								<img src="/static/img/make uoft kamal.jpg"  style ="padding-bottom: 0.5em"/>
+								<img src="/static/img/make uoft kamal 2.jpg" />
+							</div>
 							<ul class="bullet-points">
 								<li>At my first-ever hardware hackathon, I teamed up with two energetic students (whom I had just met) at Univeristy of Toronto, and we decided to do something new.</li>
 								<li>Using Arduino, Ultrasonic sensors, an LCD screen, and some cut-out cardboard, we developed a simple basketball game as a tribute to Kobe Bryant.</li>
 								<li>Remarks: Ultrasonic sensors were inconsistent in detecting the ball, but the overall experiene was quite fun. <a href = "https://devpost.com/software/tek-basketball-a-tribute-to-kobe">Link to devpost.</a></li>
 							</ul>
-							<div class = "flex-column">
-								<img src="/static/img/make uoft kamal.jpg" width = "80%"/>
-								<img src="/static/img/make uoft kamal 2.jpg" width = "80%"/>
-							</div>
+							
 						</li>
 					</div>
 					
 					<div class = "project-item item-3">
 						<li>
 							<div class = "item-title"> IEEE Xtreme Programming 2019</div>
-							<div>
+							<div class = "flex-column">
 								<a href = "https://www.linkedin.com/posts/kamal-m-ali_ieee-programming-activity-6593221088279306240-Kk0V/">
-									<img src="/static/img/ieee 13.jpeg" width = "80%"/>
+									<img src="/static/img/ieee 13.jpeg" />
 								</a>
 							</div>
 
@@ -99,22 +101,23 @@
 			<div class = "extracurriculars" id = "extracurriculars">
 				<div class="section-title">Extracurriculars</div>
 				<ul class ="no-bullets">
+					
 					<div class = "item-1 extracurricular-item">
 						<li>
 							<div class = "item-title"> <a href="https://paradigmhyperloop.com/">Paradigm Hyperloop</a></div>
-							
+							<div class = "extracurricular-photos">
+								<a href = "https://www.linkedin.com/posts/kamal-m-ali_hyperloop-activity-6559896607226118145-0RHK">
+									<img src="/static/img/Paradigm Pic (2).jpg" class="item-1"/>
+								</a>
+								<img src="/static/img/SpaceX.jpg" class="item-1" height="50%" width="auto"/>
+							</div>
 							<ul class ="bullet-points">
 								<li>Paradigm Hyperloop is a student team that designs and builds a Hyperloop Pod for the SpaceX Hyperloop Competition. </li>
 								<li>As a member on the Hyperloop team from October 2018 to October 2020, this experience opened my eyes to the design process of (relatively) large-scale engineering projects and the work that goes behind them.</li>
 								<li>During my first year with the team, I was involved with the electrical team and. I got the chance to go to SpaceX to participate in the competition.</li>
 								<li>In my second year, I switched gears to work with the software team. I developed scripts using Python, learned about collaboration using Git, and tried my hands with APIs.</li>
 							</ul>
-							<div class = "extracurricular-photos">
-								<a href = "https://www.linkedin.com/posts/kamal-m-ali_hyperloop-activity-6559896607226118145-0RHK">
-									<img src="/static/img/Paradigm Pic (2).jpg" width = "80%"/>
-								</a>
-								<img src="/static/img/SpaceX.jpg"/>
-							</div>
+							
 						</li>
 					</div>
 
@@ -128,8 +131,8 @@
 								<li>Keep an eye out for Hack Frost NL 2.0!</li>
 							</ul>
 							<div class = "extracurricular-photos">
-									<img src="/static/img/Hack Frost team photo.jpg" width = "80%"/> A photo of some team members during a team social in August 2021.
-									<img src="/static/img/judging panel.jfif" width = "80%"/> A photo during the winner announcement ceremony of Hack Frost NL 1.0.
+									<img src="/static/img/Hack Frost team photo.jpg" /> A photo of some team members during a team social in August 2021.
+									<img src="/static/img/judging panel.jfif" /> A photo during the winner announcement ceremony of Hack Frost NL 1.0.
 							</div>
 						</li>
 					</div>
