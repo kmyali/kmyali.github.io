@@ -62,7 +62,7 @@ nav ul {
  }
 
 .image-container {
-
+    width: 50%;
     flex: 1;
  }
 
