@@ -59,6 +59,7 @@ nav ul {
     align-items: center;
     background-color: #3f3dc8 ;
     color: white;
+    line-height: 0;
  }
 
 .image-container {
