@@ -150,10 +150,11 @@ nav ul {
     color: white;
   }
 
-.paradigm-photos {
+.extracurricular-photos {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .profile-photo {
