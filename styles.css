@@ -109,7 +109,8 @@ nav ul {
 
 .section-title{
     font-size: 150%;
-    background-color: black ;
+    background-color: black;
+    color: white;
 }
 
 .projects-hackathons {
@@ -121,19 +122,19 @@ nav ul {
     padding: 10px;
  }
 
-.project-1{
+.item-1{
     background-color: #8db600;
  }
 
-.project-2{
+.item-2{
     background-color: #289cd1;
  }
 
-.project-3{
+.item-3{
     background-color: #610d61;
  }
 
-.project-title {
+.item-title {
    /*text-decoration: underline;*/
    color: white;
    font-size: 150%;
@@ -147,6 +148,7 @@ nav ul {
 
  .extracurriculars {
      display: flex;
+     flex-direction: column;
  }
 
 form {
@@ -197,3 +199,17 @@ i {
 .github {
     color: black;
  }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+ .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
