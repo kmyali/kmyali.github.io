@@ -77,6 +77,9 @@ nav ul {
     background-color: #3f3dc8 ;
  }
 
+.about-me a{
+    color: #FFFF00
+}
 .intro {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em; /* The typwriter cursor */
