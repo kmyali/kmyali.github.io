@@ -79,10 +79,17 @@ nav ul {
     flex: 1;
     background-color: #3f3dc8 ;
     flex-wrap: nowrap;
+    align-items: stretch;
+    height: auto;
  }
 
 .about-me a{
     color: #FFFF00
+}
+
+.about-me p {
+    margin-top: 2px;
+    margin-bottom: 2px; 
 }
 .intro {
     font-size: 200%;
