@@ -46,9 +46,15 @@ nav a {
     align-items: center;
  }
 
- .image-container, .about-me {
+ .image-container {
     padding: 10px;
     flex: 1;
+ }
+
+ .about-me {
+    padding: 10px;
+    flex: 1;
+    background-color: #3f3dc8 ;
  }
 
 .intro {
