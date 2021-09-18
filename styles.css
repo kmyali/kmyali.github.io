@@ -122,6 +122,10 @@ nav ul {
     padding: 10px;
  }
 
+.extracurricular-item {
+    padding: 10px;
+ }
+
 .item-1{
     background-color: #8db600;
  }
@@ -141,6 +145,16 @@ nav ul {
    text-align: left;
    margin-left: 1em;
  }
+
+ .item-title a {
+    color: white;
+  }
+
+.paradigm-photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .profile-photo {
     object-fit: cover;
