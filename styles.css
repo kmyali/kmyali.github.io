@@ -106,7 +106,12 @@ nav ul {
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
+
+.section-title{
+    font-size: 150%;
+    
+}
 
 .projects-hackathons {
     display: flex;
@@ -144,8 +149,6 @@ nav ul {
 
 form {
     position : relative;
-    width  : 740px;
-    height : 498px;
     margin: 0 auto;
     padding: 1em;
     box-sizing: border-box;
