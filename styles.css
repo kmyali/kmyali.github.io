@@ -157,6 +157,15 @@ nav ul {
     justify-content: space-evenly;
 }
 
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
 .profile-photo {
     object-fit: cover;
  }
