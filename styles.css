@@ -125,7 +125,7 @@ nav ul {
    margin-left: 1em;
  }
 
-#profile-photo {
+.profile-photo {
     object-fit: cover;
  }
 
