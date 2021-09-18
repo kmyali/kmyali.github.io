@@ -11,6 +11,10 @@ body {
     Roboto*/
 }
 
+.center {
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     padding: 0%;
@@ -23,11 +27,6 @@ nav a {
     color: white;
 }
 
-.center {
-    text-align: center;
-}
-
-
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -35,6 +34,19 @@ nav a {
     padding: 0;
     background-color: black;
 }
+
+nav ul li {
+    display:inline;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    height: 2em;
+}
+
 .navbar li:hover {
     cursor: pointer;
     background-color: #7b50bf;
@@ -49,12 +61,12 @@ nav a {
     color: white;
  }
 
- .image-container {
+.image-container {
 
     flex: 1;
  }
 
- .about-me {
+.about-me {
     padding: 10px;
     flex: 1;
     background-color: #3f3dc8 ;
@@ -75,18 +87,39 @@ nav a {
     from { width: 0 }
     to { width: 100% }
   }
-  
-nav ul li {
-    display:inline;
-    width: auto;
-    padding: 5px;
-    text-align: center;
-}
 
-nav ul {
-    margin: 0;
-    height: 2em;
-}
+.projects-hackathons {
+    display: flex;
+    flex-direction: column;
+ }
+
+.project-item {
+    padding: 10px;
+ }
+
+.project-1{
+    background-color: #8db600;
+ }
+
+.project-2{
+    background-color: #289cd1;
+ }
+
+.project-3{
+    background-color: #610d61;
+ }
+
+.project-title {
+   /*text-decoration: underline;*/
+   color: white;
+   font-size: 150%;
+   text-align: left;
+   margin-left: 1em;
+ }
+
+.profile-photo {
+    width: 100%
+ }
 
 
 form {
@@ -103,61 +136,26 @@ form label {
     margin-bottom : 1em;
  }
 
- .projects-hackathons {
-    display: flex;
-    flex-direction: column;
- }
-
- .project-item {
-    padding: 10px;
- }
-
- .project-1{
-    background-color: #8db600;
- }
-
- .project-2{
-    background-color: #289cd1;
- }
-
- .project-3{
-    background-color: #610d61;
- }
-
- .project-title {
-   /*text-decoration: underline;*/
-   color: white;
-   font-size: 150%;
-   text-align: left;
-   margin-left: 1em;
- }
-
- .profile-photo {
-    width: 100%
- }
-
-
-
- .form-item {
+.form-item {
      display: flex;
      flex-direction: column ;
      text-align: center;
      align-items: center;
  }
 
- input {
+input {
     width: 20em;
     height: 2em;
     border-radius: 4px;
  }
 
- textarea {
+textarea {
     width: 20em;
     height: 10em;
     border-radius: 4px;
  }
 
- button {
+button {
      width: 20em;
      height: 2em;
      background-color: #8db600;
@@ -166,10 +164,11 @@ form label {
      cursor: pointer;
  }
 
- i {
+i {
      font-size: 48px;
      text-decoration: none;
  }
- .github {
+
+.github {
     color: black;
  }
