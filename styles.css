@@ -180,7 +180,9 @@ padding-left:2em;
  }
 
  li {
-     padding-left: 1em;
+    padding-left: 0em;
+    text-align: left;
+    padding-bottom: 1em;
  }
 
 form {
