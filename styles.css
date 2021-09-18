@@ -64,6 +64,7 @@ nav ul {
 .image-container {
     width: 50%;
     flex: 1;
+    line-height: 0;
  }
 
  img {
