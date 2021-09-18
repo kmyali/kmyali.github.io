@@ -43,7 +43,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     background-color: #3f3dc8 ;
     color: white;
  }
