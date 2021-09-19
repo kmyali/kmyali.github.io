@@ -71,9 +71,16 @@ nav ul {
 
  img {
     max-width: 100%;
-    width: 80%;
     margin: 0px;
     text-align: center;
+}
+
+.reduced-width{
+    width: 80%;
+}
+
+.reduced-height{
+    height: 50%;
 }
 
 .about-me {
