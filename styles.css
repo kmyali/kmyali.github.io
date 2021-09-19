@@ -246,6 +246,12 @@ i {
      text-decoration: none;
  }
 
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .github {
     color: black;
  }
