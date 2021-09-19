@@ -243,10 +243,6 @@ button {
      cursor: pointer;
  }
 
-i {
-     font-size: 48px;
-     text-decoration: none;
- }
 
 .socials{
     display: flex;
