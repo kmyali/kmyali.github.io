@@ -78,7 +78,9 @@ nav ul {
 .reduced-width{
     width: 80%;
 }
-
+.reduced-width-extra{
+    width: 60%;
+}
 .reduced-height{
     height: 50%;
 }
