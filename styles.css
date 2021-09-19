@@ -256,6 +256,7 @@ i {
     color: black;
  }
 
+
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -270,3 +271,7 @@ i {
     background: #007bb5;
     color: white;
   }
+
+.fa-github {
+    padding-top:1px;
+}
