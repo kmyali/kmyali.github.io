@@ -257,12 +257,13 @@ i {
  }
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
  .fa-linkedin {
