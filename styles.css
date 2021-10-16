@@ -156,7 +156,6 @@ nav ul {
  }
 
 .item-title {
-   /*text-decoration: underline;*/
    color: white;
    font-size: 150%;
    text-align: left;
@@ -166,6 +165,14 @@ nav ul {
 
  .item-title a {
     color: white;
+  }
+
+  .dates {
+    color: white;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
   }
 
 .extracurricular-photos {
