@@ -54,7 +54,7 @@ nav ul {
     background-color: #7b50bf;
 }
 
-.photo-and-intro {
+.photo-and-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
