@@ -63,7 +63,12 @@ nav ul {
     color: white;
  }
 
-.image-container {
+.intro-image-container {
+    flex: 1;
+    line-height: 0;
+ }
+
+ .image-container {
     width: 50%;
     flex: 1;
     line-height: 0;
