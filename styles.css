@@ -129,6 +129,7 @@ nav ul {
  }
 
 .project-item {
+    /* flex: display ? */
     padding: 10px;
  }
 
