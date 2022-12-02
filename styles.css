@@ -59,17 +59,16 @@ nav ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #3f3dc8 ;
     color: white;
  }
 
-.intro-image-container {
+ .image-container {
     flex: 1;
     line-height: 0;
  }
 
- .image-container {
-    width: 50%;
+.intro-image-container {
+    background-color: #3f3dc8 ;
     flex: 1;
     line-height: 0;
  }
