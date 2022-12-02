@@ -189,6 +189,20 @@ nav ul {
     justify-content: space-between;
 }
 
+.flex-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-between;
+}
+
 
 .profile-photo {
     object-fit: cover;
