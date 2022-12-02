@@ -199,6 +199,7 @@ nav ul {
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
+    margin-left: 2em;
 }
 
 .flex-right {
@@ -206,6 +207,7 @@ nav ul {
     flex-direction: column;
     align-items: right;
     justify-content: space-between;
+    margin-right: 2em;
 }
 
 
