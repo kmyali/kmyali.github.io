@@ -223,6 +223,8 @@ nav ul {
  .bullet-points {
 list-style-type: circle;
 padding-left:2em;
+margin-left:2em;
+margin-right:2em;
 padding: 10px;
 flex: 1;
 align-items: stretch;
