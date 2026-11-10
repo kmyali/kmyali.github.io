@@ -80,6 +80,13 @@ nav ul {
     text-align: center;
 }
 
+.extracurricular-item img,
+.project-item img {
+    box-sizing: border-box;
+    max-width: min(76.5%, 439px);
+    height: auto;
+}
+
 .reduced-width{
     width: 80%;
 }
@@ -128,7 +135,7 @@ nav ul {
     padding-top: 0.5em;
 }
 
-.projects-hackathons {
+.hackathons-conferences {
     display: flex;
     flex-direction: column;
  }
