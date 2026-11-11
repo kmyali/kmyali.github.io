@@ -96,6 +96,60 @@ nav ul {
     height: auto;
 }
 
+.qsite-photos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2em;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+.qsite-photos figure {
+    margin: 0;
+    text-align: center;
+}
+
+.qsite-photos figure:first-child {
+    grid-column: 1 / -1;
+}
+
+.qsite-photos img {
+    display: block;
+    width: 439px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.qsite-photos figure:not(:first-child) img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+}
+
+.qsite-photos figcaption {
+    margin-top: 0.5em;
+}
+
+.qiskit-photos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5em 2em;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+.qiskit-photos img {
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+}
+
+.qiskit-photos figcaption {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
 .reduced-width{
     width: 80%;
 }
