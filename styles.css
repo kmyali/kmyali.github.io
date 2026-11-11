@@ -68,6 +68,15 @@ nav ul {
     line-height: 0;
  }
 
+.experience-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0;
+    line-height: 1.5;
+}
+
 .intro-image-container {
     background-color: #3f3dc8 ;
     flex: 1;
